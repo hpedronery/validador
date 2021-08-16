@@ -3,7 +3,7 @@ package com.valida.senha.servico;
 import com.valida.senha.regras.RegraCaracteres;
 import com.valida.senha.regras.RegraEspacosEmBranco;
 import com.valida.senha.regras.RegraTamanho;
-import com.valida.senha.regras.caracteres.RegraEnum;
+import com.valida.senha.regras.enums.RegraEnum;
 
 import java.util.Arrays;
 

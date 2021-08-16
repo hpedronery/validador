@@ -1,6 +1,6 @@
 package com.valida.senha.regras;
 
-import com.valida.senha.regras.caracteres.RegraEnum;
+import com.valida.senha.regras.enums.RegraEnum;
 
 import java.util.List;
 import java.util.stream.Collectors;

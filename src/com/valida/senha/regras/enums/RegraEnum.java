@@ -1,4 +1,4 @@
-package com.valida.senha.regras.caracteres;
+package com.valida.senha.regras.enums;
 
 public enum RegraEnum {
 
