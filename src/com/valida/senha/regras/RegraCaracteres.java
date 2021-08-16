@@ -5,7 +5,7 @@ import com.valida.senha.regras.enums.RegraEnum;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class RegraCaracteres extends Regra {
+public class RegraCaracteres implements Regra {
 
     private final RegraEnum regraEnum;
     private final int quantidade;

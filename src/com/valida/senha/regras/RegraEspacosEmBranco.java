@@ -1,6 +1,6 @@
 package com.valida.senha.regras;
 
-public class RegraEspacosEmBranco extends Regra {
+public class RegraEspacosEmBranco implements Regra {
     @Override
     public void verifica(String senha) {
         if(senha.strip().length() < senha.length())

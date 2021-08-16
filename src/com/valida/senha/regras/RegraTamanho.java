@@ -1,6 +1,6 @@
 package com.valida.senha.regras;
 
-public class RegraTamanho extends Regra {
+public class RegraTamanho implements Regra {
 
     private final int maior;
     private final int menor;
