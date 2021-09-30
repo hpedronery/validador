@@ -18,7 +18,7 @@ public class Regrador {
                 new RegraCaracteres(RegraEnum.ESPECIAIS, 1),
                 new RegraEspacosEmBranco()
         ));
-        Validador.setGeraRelatorio(true);
+        Validador.setGeraRelatorio(false);
         validador.validar(senha);
     }
 }
